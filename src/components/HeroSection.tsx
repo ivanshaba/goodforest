@@ -17,7 +17,7 @@ export const HeroSection = () => {
         className="absolute inset-0 w-full h-full object-cover"
         poster={forestHeroBg}
       >
-        <source src="https://assets.mixkit.co/videos/preview/mixkit-forest-landscape-aerial-view-513-large.mp4" type="video/mp4" />
+        <source src="/video.mp4" type="video/mp4" />
         {/* Fallback to image if video fails to load */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
